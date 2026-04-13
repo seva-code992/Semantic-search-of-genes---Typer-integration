@@ -1,0 +1,12 @@
+[project]
+name = "semantic-query"
+version = "0.1.0"
+description = "Here I will turn the semantic query search into a command that I can access fro my terminal."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "numpy>=2.4.4",
+    "sentence-transformers>=5.4.0",
+    "typer>=0.24.1",
+]
